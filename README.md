@@ -1,7 +1,7 @@
 # Desafio do Frontend Mentor
 
 
-### Desafio proposto do Frontend Mentor
+### Desafio proposto do Frontend Mentor - Card
 Versão: :desktop_computer:
 ![Web 1](https://github.com/daniloadscavalcante/Frontend-Mentor-Card/blob/main/design/desktop-design.jpg)
 
