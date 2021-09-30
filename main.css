@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body, html{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #E0E8FF;
+    height: 100vh;
+    color: #7D8494;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+.container{
+    background-image:  url(./images/pattern-background-desktop.svg);    
+    background-size: 100%;
+    background-position: 0px  -80px;
+    background-repeat: no-repeat;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  .card{
+    width: 100%;
+    max-width: 350px;   
+    
+    text-align:center;
+    margin:auto;
+    background-color: #fff;
+
+    border-radius: 20px;
+  }
+  h3{
+    margin:0;
+    color: #1c2646;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
+  }
+  .imgtop{    
+    width:100%; 
+    border-radius: 20px 20px 0px 0px;
+  }
+  .discription{    
+    padding: 30px 2.5rem; 
+  }
+  .discription p{    
+    font-size: 12px; 
+    margin: 13px 0px 15px 0px;
+    line-height: 1.5; 
+  }
+  .price{
+    background: #F8F9FE;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #000;
+    display:flex; 
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+  .price__description{
+    width: 70%;
+    
+    display:flex;
+    align-items:center;
+  }
+  .price__description .imgMusic{    
+    width: 35px;     
+    border-radius:50px;
+    margin: 10px;
+  }
+  .price a{
+      font-size: 12px;
+      font-weight: bold;
+  }
+  .value{
+    color: #7D8494;
+  }
+  input{
+    width:100%;
+    padding: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    border:none;
+    background: blue;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 3px 13px rgba(56, 42, 225, .7);
+    cursor: pointer;
+  }
+  .cancel{
+      font-size: 12px;
+      font-weight: bold;
+  }
+ @media only screen and (max-width: 500px){
+   .container{
+      background-image:  url(images/pattern-background-mobile.svg);
+      background-size: 100% 50%;
+    }
+ }
