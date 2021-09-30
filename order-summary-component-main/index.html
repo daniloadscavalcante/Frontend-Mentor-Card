@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: rgb(62, 82, 163); }
+    body{
+      box-sizing: border-box;
+      margin: 0;
+      padding:0;
+    }
+    .container{ 
+      width: 900px;
+      height: 600px;
+      margin: auto;
+      background-color: blue;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h3{
+      margin: 0;
+      padding: 0;
+    }
+    .card{ 
+      width: 300px;
+      height: 400px;
+      background-color: burlywood;
+    }
+    .perfil{ 
+      width: 300px;
+      height: auto;
+    }
+    .perfil img{ 
+      width: 100%;
+    }
+    .discription{ 
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .discription p{ 
+      width: 70%;
+      background-color:yellow;
+      font-size: 13px;
+    }
+    .box_price{
+      background-color: red;
+      width: 80%;     
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+    }
+    .box_price div{
+      background-color: yellow;
+    }    
+    .title_plan{
+      font-size: 14px;
+      display:flex;       
+      padding-left: 5px;
+      align-items: center;     
+    }
+    .title_plan span{ 
+      padding-left: 9px;
+    }
+    .title_plan img{
+      width: 20%;
+    }
+    .change{
+      display:grid;
+      grid-column: 3/4;
+      padding: 3px;
+      align-content: center;
+    }
+   input{
+     margin: 10px;
+     background-color:rgb(62, 82, 163);
+     color: white;
+     border: none;
+     padding: 10px 30px;
+     border-radius: 10px;
+     cursor: pointer;
+   }
+  </style>
+</head>
+<body>
+
+  <div class="container">    <div class="card">
+      <div class="perfil"><img src="images/illustration-hero.svg" alt=""></div>
+      <div class="discription">
+        <h3>Order Summary</h3>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
+
+          <div class="box_price">        
+
+            <div class="title_plan">
+              <img src="images/icon-music.svg" alt="">
+              <span><strong>Annual Plan</strong> <br>$59.99/year</span>
+            </div>
+            
+            <div class="change"><a href="#">Change</a></div>
+            
+          </div>
+
+          <input type="button" value=" Proceed to Payment">
+          <span>Cancel Order</span>
+      </div>
+
+      
+    </div>
+  </div>
+
+  
+
+
+
+
+
+  <!--Order Summary
+
+  You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!
+
+  Annual Plan
+  $59.99/year
+
+  Change
+
+  Proceed to Payment
+  Cancel Order-->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Danilo Santos</a>.
+  </div>
+</body>
+</html>
