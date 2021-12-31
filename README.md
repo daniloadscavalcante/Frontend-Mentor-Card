@@ -2,6 +2,9 @@
 
 
 ### Desafio proposto do Frontend Mentor - Card
+
+#### Link -https://card-done-frontendmentor.netlify.app/
+
 Versão: :desktop_computer:
 ![Web 1](https://github.com/daniloadscavalcante/Frontend-Mentor-Card/blob/main/design/desktop-design.jpg)
 
